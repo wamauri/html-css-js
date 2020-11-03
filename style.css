@@ -1,17 +1,32 @@
-#menu-top {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 1.1rem;
-
-    border-style: solid;
-    border-width: 0.3rem;
-    margin-top: 4rem;
-    margin: auto;
+/*Reset*/
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.menu-class {
+#menu-top {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+}
+
+#menu-top ul li {
     display: inline;
-    
+}
+
+#menu-top ul li a{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#menu-top ul li a:hover {
+    background-color: green;
 }
