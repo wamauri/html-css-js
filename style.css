@@ -1,0 +1,17 @@
+#menu-top {
+    background-color: red;
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    border-style: solid;
+    border-width: 0.3rem;
+    margin-top: 4rem;
+    margin: auto;
+}
+
+.menu-class {
+    display: inline;
+    
+}
